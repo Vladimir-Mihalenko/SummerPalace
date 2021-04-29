@@ -1,0 +1,977 @@
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.wrapper {
+    height: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-right: 233px;
+}
+
+.header_nav ul {
+    display: flex;
+}
+.header_nav ul li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.header_nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.header_nav ul li a.active {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #D1A954;
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    box-sizing: border-box;
+    padding: 7px 9px 6px;
+}
+.ext-menu {
+    margin-left: 173px;
+    margin-top: 7px;
+    margin-right: 200px;
+}
+.ext-menu1,.ext-menu2,.ext-menu3 {
+    border-bottom: 1px solid black;
+    width: 40px;
+    margin-bottom: 9px;
+}
+
+/* БЛОК СЛАЙДЕРА*/
+.slider {
+    display: flex;
+    justify-content: center;
+}
+.slider>div {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.slider-foter {
+    height: 166px;
+    margin-top: -166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba(209, 169, 84, 0.9);
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    outline-offset: -20px;
+    padding-left: 5px;
+}
+
+.slider-foter-text {
+    padding-left: -5px;
+}
+.slider-foter-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+
+}
+.slider-foter-p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* НАВИГАЦИЯ СЛАЙДЕРА*/
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.left-arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 5px;
+
+}
+.slider-nav-bold {
+    border-bottom: 1px solid #000000;
+    width: 20px;
+    margin-bottom: 3px;
+}
+.slider-nav-solid {
+    border-bottom: 1px solid #E5E5E5;;
+    width: 120px;
+    margin-bottom: 3px;
+}
+.right-arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-right: 5px;
+}
+/* БЛОК О РЕСТОРАНЕ*/
+.about-restaurant-main-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-restaurant-main-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #222222;
+}
+.about-restaurant-main-p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.about-restaurant-main-loho-img {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.button-play {
+    position: absolute;
+}
+.restaurant-wrapper {
+    background-color: #E5E5E5;
+    padding-bottom: 90px;
+    padding-top: 239px;
+    margin-top: -239px;
+    display: flex;
+    justify-content: center;
+}
+.restaurant-column-block {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    margin-right: 30px;
+    margin-top: 90px;
+}
+.restaurant-column-block-1{
+    margin-right: 30px;
+}
+.about-restaurant {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 125px;
+    margin-left: 30px;
+
+}
+#about-restaurant-logo {
+    margin-bottom: 33px;
+}
+.about-restaurant-text-block {
+    max-width: 350px;
+    width: 100%;
+    min-height: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    text-transform: none;
+    text-align: left;
+}
+.restaurant-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.restaurant-text {
+    max-width: 255px;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    text-align: left;
+}
+.wrapper-img-h {
+    display: flex;
+    align-items: flex-end;
+}
+.platform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+#platform-logo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.technology {
+    display: flex;
+    flex-direction: column;
+}
+#technology-logo {
+    margin-bottom: 20px;
+    margin-right: 29px;
+}
+.interior {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+    margin-top: 100px;
+}
+#interior-logo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.equipment  {
+    display: flex;
+    flex-direction: column;
+}
+#equipment-logo {
+    margin-bottom: 14px;
+    margin-right: 23px;
+}
+
+/* БЛОК ГАЛЕРЕЯ С ФОТО */
+.gallery {
+    margin-top: 120px;
+}
+.gallery-head {
+    display: flex;
+    justify-content: center;
+
+}
+.gallery-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 285px;
+    width: 100%;
+}
+.gallery-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.gallery-h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.gallery-head-img{
+    display: flex;
+}
+#gallery-logo-img {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-img-column {
+    display: flex;
+    flex-direction: column;
+}
+#g1, #g2, #g3, #g4, #g5 {
+    margin: 15px;
+}
+/* БЛОК ПРО НАС И КНОПКИ СКАЧИВАНИЯ*/
+.about-us {
+    background-image: url(img/big.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 409px;
+    margin-top: 150px;
+}
+.about-us-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 135%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.download-plan {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 23px 58px 20px 57px;
+    background: #FFFFFF;
+    margin-right: 90px;
+}
+.download-presentation {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 22px 46px;
+    background: #FFFFFF;
+}
+/* БЛОК С АДРЕСАМИ И ФОРМОЙ*/
+.event-main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.event-information-box {
+    margin-right: 30px;
+}
+.information-restaurant-office {
+    display: flex;
+    flex-wrap: wrap;
+}
+.information-restaurant {
+    margin-right: 59px;
+}
+.information-restaurant-address{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.information-restaurant-number{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.information-restaurant-mail{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.information-office-address{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.information-office-number{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.information-office-mail{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.event-information-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.event-information-p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    margin-bottom: 60px;
+}
+.information-restaurant-office-p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000;
+}
+.information-restaurant-office-h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.information-restaurant-office-img {
+    margin-right: 29px;
+}
+.event-form {
+    display: flex;
+    flex-direction: column;
+}
+.event-form-name {
+    width: 540px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    border-width: 0;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding-bottom: 17px;
+}
+.event-form-mail {
+    width: 540px;
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    border-width: 0;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding-bottom: 13px;
+}
+.event-form-text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 540px;
+    height: 196px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+    border: 0.5px solid #D0D0D0;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 20px;
+    resize: none;
+
+}
+.event-form-button {
+    width: 182px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #D1A954;
+}
+
+/* БЛОК footer*/
+.head-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F7F7;
+}
+.footer-h {
+    padding-top: 120px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #222222;
+}
+.footer-p {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 90px;
+
+}
+#footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.white-line-text-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 92px;
+
+}
+.white-line-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+.white-line-text a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000;
+    text-decoration: none;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .logo {
+        margin-right: 0;
+    }
+    .wrapper  {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .header_nav {
+        display: none;
+    }
+    .ext-menu {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .events  {
+        display: none;
+    }
+    .slider{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .slider-foter-h {
+        font-size: 24px;
+    }
+    .slider-foter-p {
+        font-size: 11px;
+    }
+    .left-arrow {
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-left: 10px;
+    
+    }
+    .slider-nav-bold {
+        border-bottom: 2px solid #000000;
+        width: 20px;
+        margin-bottom: 3px;
+    }
+    .slider-nav-solid {
+        border-bottom: 2px solid #E5E5E5;;
+        width: 80px;
+        margin-bottom: 3px;
+    }
+    .right-arrow {
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        margin-right: 10px;
+    }
+    .gallery-logo {
+        max-width: 230px;
+        width: 100%;
+        min-height: 300px;
+    }
+    .gallery{
+        overflow: hidden;
+    }
+    .gallery-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery-head-img{
+        display: flex;
+    }
+    .gallery-img-column{
+        flex-direction: row;
+    }
+    .event-main-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-information-box{
+        margin-bottom: 60px;
+        margin-right: 0;
+    }
+    .about-restaurant{
+        margin-right: 60px;
+    }
+    .slider-foter {
+        height: 135px;
+        margin-top: -135px;
+        outline-offset: -15px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px){
+    
+    .logo {
+        margin-right: 0;
+    }
+    .wrapper  {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .wrapper img {
+        width: 140px;
+    }
+    .header_nav {
+        display: none;
+    }
+    .ext-menu1, .ext-menu2, .ext-menu3 {
+        width: 30px;
+        margin-bottom: 7px;
+    }
+    .ext-menu {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .events  {
+        display: none;
+    }
+    .wedding {
+        display: none;
+    }
+    .slider{
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider-foter-h {
+        font-size: 24px;
+    }
+    .slider-foter-p {
+        font-size: 11px;
+    }
+    .left-arrow {
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-left: 10px;
+    
+    }
+    .slider-nav-bold {
+        border-bottom: 2px solid #000000;
+        width: 20px;
+        margin-bottom: 3px;
+    }
+    .slider-nav-solid {
+        border-bottom: 2px solid #E5E5E5;;
+        width: 80px;
+        margin-bottom: 3px;
+    }
+    .right-arrow {
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        margin-right: 10px;
+    }
+    .slider-nav{
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+    .video video {
+        width: 340px;
+        height: 200px;
+    }
+    .restaurant-wrapper {
+        margin-top: -100px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .button-play img {
+        width: 40px;
+    }
+    .restaurant-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .restaurant-wrapper p {
+        font-size: 10px;
+    }
+    .about-restaurant {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    .restaurant-column-block{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .about-restaurant-text-block{
+        height: 130px;
+    }
+    .restaurant-column-block>div {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .restaurant-column-block-1>div {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .gallery{
+        margin-top: 30px;
+    }
+    .gallery-logo {
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    .gallery-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-head-img{
+        flex-direction: column;
+    }
+    #g1, #g4, #g2, #g3, #g5 {
+    
+        margin: 5px;
+    }
+    .gallery-logo {
+        max-width: 340px;
+        width: 100%;
+    }
+    .about-us {
+        margin-top: 60px;
+        min-height: 250px;
+    }
+    .about-us span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-plan {
+        margin-right: 0;
+        padding: 10px 94px;
+        margin-bottom: 15px;
+    }
+    .download-presentation {
+        padding: 10px 50px;
+    }
+    .about-us-h {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .event-main-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-information-box{
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .event-information-box-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .event-information-h {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .event-information-p {
+        margin: 0 15px 30px 15px;
+    }
+    .information-restaurant-office {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+    .information-restaurant {
+        margin-right: 0;
+        margin-bottom: 15px;
+        max-width: 180px;
+        width: 100%;
+    }
+    .information-office{
+        max-width: 180px;
+        width: 100%;
+    }
+    .event-main-box {
+        margin: 30px 0 30px 0;
+    }
+    .information-restaurant-office-p {
+        font-size: 8px;
+    }
+    .information-restaurant-office-h {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .information-restaurant>div {
+        margin-bottom: 15px;
+    }
+    .information-office>div{
+        margin-bottom: 15px;
+    }
+    .event-form-name, .event-form-mail, .event-form-text {
+        width: 340px;
+        font-size: 11px;
+    }
+    .event-form-text {
+        margin-bottom: 15px;
+    }
+    .event-form-button {
+        font-size: 10px;
+        width: 100px;
+    }
+    .footer-h{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    .footer-img img {
+        width: 150px;
+    }
+    .footer-p {
+        margin-bottom: 30px;
+    }
+    .white-line-text-wrapper {
+        height: 60px;
+    }
+    .white-line-text {
+        font-size: 8px;
+    }
+    .white-line-text a {
+        font-size: 8px;
+    }
+    .slider-foter {
+        height: 120px;
+        margin-top: -120px;
+        outline-offset: -10px;
+    }
+}
